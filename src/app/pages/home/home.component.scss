@@ -1,0 +1,41 @@
+.what{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  h1{
+    margin: 0;
+  }
+}
+
+.we{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .info{
+    margin-left: 50px;
+    h3{
+      margin: 0;
+      font-size: 24px;
+    }
+    .subtitle{
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .description{
+      font-size: 16px;
+      margin-top: 10px;
+      max-width: 486px;
+    }
+  }
+}
+
+.btn{
+  padding: 10px 24px;
+  border-radius: 18px;
+  background-color: #00369C;
+  color: white;
+  border: none;
+}

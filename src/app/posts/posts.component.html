@@ -1,0 +1,6 @@
+<div *ngFor="let post of postsData; let i = index;">
+  <h3>{{post.title.rendered}}</h3>
+    <ng-container >
+      <ngx-dynamic-hooks [content]="''+post.content.rendered" ></ngx-dynamic-hooks>
+    </ng-container>
+</div>
